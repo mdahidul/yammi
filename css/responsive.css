@@ -1,0 +1,778 @@
+
+/* css media queary start */
+
+
+/* *****
+* screen resulation : 279px to 379px 
+* most of the folding mobile phone -- like galaxy fold
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+    /* css start  */
+    
+    
+    
+    /* css end*/
+    }
+    
+    /* css media queary start */
+
+
+/* *****
+* screen resulation : 320px to 480px 
+* most of the mobile phone 
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* css start  */
+    .header .top-menu {
+        padding: 20px 0px ;
+    }
+    .header .top-menu img{
+        margin: 10px 0px ;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 14px ;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url(../images/nav.png) ;
+    background-position: center left;
+    background-repeat: no-repeat ; 
+   }
+
+  .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .header .nav-link.active{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .banner{
+        padding: 30px 0px ;
+   }
+   .banner h1{
+        font-size: 24px ;
+   }
+   .banner p{
+        font-size: 14px  ;
+        margin: 10px 0px 0px 0px ;
+   }
+   .banner h4{
+        font-size: 18px ;
+   }
+   .banner .button-actions .btn-primary {
+    padding: 5px 20px;
+    font-size: 14px;
+
+  }
+  .button-actions{
+    margin-top: 20px ;
+  }
+  .button-actions .btn-info {
+    padding: 3px 15px;
+  }
+ .about {
+    padding: 30px 0px;
+ }
+ .about .title {
+    margin: 0px 0px 34px 0px;
+}
+.about .title h1{
+    font-size: 24px ;
+}
+
+.about .title p{
+    font-size: 12px ;
+}
+.about h2 {
+    font-size: 26px;
+    margin: 0px 0px 10px 0px;
+}
+.about p {
+    font-size: 14px;
+    
+}
+
+.button-actions{
+    margin-top: 20px ;
+}
+.about .button-actions .btn-info {
+    padding: 3px 15px;
+}
+
+.about .button-actions .btn-primary {
+    padding: 5px 20px;
+    font-size: 14px;
+
+  }
+  .about img {
+    width: 100%;
+    margin: 20px 0px 0px 10px;
+}
+.about-short img {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-short h2 {
+    font-size: 24px;
+    margin: 20px 0px 10px 0px;
+}  
+.about-short p{
+    font-size: 12px;
+}
+.about-short {
+    width: 100%;
+    padding: 0px 0px 30px;
+}
+.about-short .button-actions .btn-primary {
+    padding: 5px 20px;
+    font-size: 14px;
+
+}
+.service .title h1{
+    font-size: 26px ;
+}
+.service .title p{
+    font-size: 12px ;
+    margin: 0px 0px 30px 0px;
+}
+.problem h2 {
+    font-size: 20px;
+}
+
+.problem h2 span {
+    font-size: 26px;
+    margin: 20px;
+}
+.problem p {
+    font-size: 12px;
+    margin: 0px 0px 20px 0px;
+}
+.problem .btn-primary {
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.service {
+    padding: 0px 0px 10px;
+}
+.service img {
+    width: 100%;
+    margin: 30px -20px 30px 0px;
+}
+.discount {
+    padding: 30px 0px;
+}
+.discount h1{
+    font-size: 26px ;
+}
+.discount h2 {
+    font-size: 17px;
+}
+.discount h4{
+    font-size: 18px ;
+}
+.discount p{
+    font-size: 12px ;
+}
+.discount .btn-primary {
+    padding: 5px 20px;
+    font-size: 12;
+}
+.priching {
+    padding: 30px 0px 50px;
+}
+.priching .title {
+    margin: 0px 0px 0px 0px;
+}
+.priching .title h1{
+    font-size: 26px ;
+}
+
+.priching .title p{
+    font-size: 12px ;
+}
+.price-card .price-head {
+    padding: 10px 0px;
+}
+.price-card .price-head h1 {
+    font-size: 26px;
+}
+.price-card .price-content {
+    padding: 20px 0px 30px 0px;
+   
+}
+.price-card .price-content h5 {
+    font-size: 14px;
+}
+.price-card .price-content .btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 5px 0px 0px 0px;
+}
+.sale {
+    padding: 30px 0px;
+}
+.sale h1{
+    font-size: 26px ;
+}
+.sale h2 {
+    font-size: 17px;
+}
+.sala h4{
+    font-size: 18px ;
+}
+.sale p{
+    font-size: 12px ;
+}
+.sale .btn-primary {
+    padding: 5px 20px;
+    font-size: 12;
+}
+.blog {
+    padding: 30px 0px 50px 0px;
+}
+.blog .title h1{
+    font-size: 26px ;
+}
+.blog .title p {
+    font-size: 12px;
+    margin: 0px 0px 30px 0px;
+}
+.blog-title {
+    width: 100%;
+    margin: 30px 0px;
+}
+.blog-title h2 {
+    font-size: 26px;
+}
+.blog-title p {
+    font-size: 12px;
+}
+.footer-title h1 {
+    font-size: 26px;
+}
+.footer-title h4 {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* css end*/
+}
+    /* css media queary start */
+
+
+/* *****
+* screen resulation : 481px to 767px 
+* most of the mobile phone and low resulation tab
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* css start  */
+    .header .top-menu {
+        padding: 25px 0px ;
+    }
+    .header .top-menu img{
+        margin: 15px 0px ;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 15px ;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url(../images/nav.png) ;
+    background-position: center left;
+    background-repeat: no-repeat ; 
+   }
+
+  .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .header .nav-link.active{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .banner{
+        padding: 35px 0px ;
+   }
+   .banner h1{
+        font-size: 25px ;
+   }
+   .banner p{
+        font-size: 15px  ;
+        margin: 15px 0px 0px 0px ;
+   }
+   .banner h4{
+        font-size: 19px ;
+   }
+   .banner .button-actions .btn-primary {
+    padding: 8px 25px;
+    font-size: 14px;
+
+  }
+  .button-actions{
+    margin-top: 25px ;
+  }
+  .button-actions .btn-info {
+    padding: 5px 20px;
+  }
+ .about {
+    padding: 35px 0px;
+ }
+ .about .title {
+    margin: 0px 0px 39px 0px;
+}
+.about .title h1{
+    font-size: 25px ;
+}
+
+.about .title p{
+    font-size: 13px ;
+}
+.about h2 {
+    font-size: 27px;
+    margin: 0px 0px 15px 0px;
+}
+.about p {
+    font-size: 15px;
+    
+}
+
+.button-actions{
+    margin-top: 25px ;
+}
+.about .button-actions .btn-info {
+    padding: 5px 20px;
+}
+
+.about .button-actions .btn-primary {
+    padding: 8px 25px;
+    font-size: 15px;
+
+  }
+  .about img {
+    width: 100%;
+    margin: 25px 0px 0px 15px;
+}
+.about-short img {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-short h2 {
+    font-size: 25px;
+    margin: 25px 0px 15px 0px;
+}  
+.about-short p{
+    font-size: 13px;
+}
+.about-short {
+    width: 100%;
+    padding: 0px 0px 35px;
+}
+.about-short .button-actions .btn-primary {
+    padding: 8px 25px;
+    font-size: 15px;
+
+}
+.service .title h1{
+    font-size: 27px ;
+}
+.service .title p{
+    font-size: 14px ;
+    margin: 0px 0px 35px 0px;
+}
+.problem h2 {
+    font-size: 25px;
+}
+
+.problem h2 span {
+    font-size: 27px;
+    margin: 25px;
+}
+.problem p {
+    font-size: 13px;
+    margin: 0px 0px 25px 0px;
+}
+.problem .btn-primary {
+    padding: 8px 25px;
+    font-size: 15px;
+}
+.service {
+    padding: 0px 0px 15px;
+}
+.service img {
+    width: 100%;
+    margin: 35px -20px 35px 0px;
+}
+.discount {
+    padding: 35px 0px;
+}
+.discount h1{
+    font-size: 27px ;
+}
+.discount h2 {
+    font-size: 18px;
+}
+.discount h4{
+    font-size: 19px ;
+}
+.discount p{
+    font-size: 13px ;
+}
+.discount .btn-primary {
+    padding: 8px 25px;
+    font-size: 13;
+}
+.priching {
+    padding: 35px 0px 55px;
+}
+.priching .title {
+    margin: 0px 0px 0px 0px;
+}
+.priching .title h1{
+    font-size: 27px ;
+}
+
+.priching .title p{
+    font-size: 13px ;
+}
+.price-card .price-head {
+    padding: 15px 0px;
+}
+.price-card .price-head h1 {
+    font-size: 27px;
+}
+.price-card .price-content {
+    padding: 25px 0px 35px 0px;
+   
+}
+.price-card .price-content h5 {
+    font-size: 15px;
+}
+.price-card .price-content .btn-primary {
+    padding: 15px 25px;
+    font-size: 15px;
+    margin: 8px 0px 0px 0px;
+}
+.sale {
+    padding: 35px 0px;
+}
+.sale h1{
+    font-size: 27px ;
+}
+.sale h2 {
+    font-size: 18px;
+}
+.sala h4{
+    font-size: 19px ;
+}
+.sale p{
+    font-size: 13px ;
+}
+.sale .btn-primary {
+    padding: 8px  25px;
+    font-size: 13;
+}
+.blog {
+    padding: 35px 0px 55px 0px;
+}
+.blog .title h1{
+    font-size: 27px ;
+}
+.blog .title p {
+    font-size: 13px;
+    margin: 0px 0px 35px 0px;
+}
+.blog-title {
+    width: 100%;
+    margin: 35px 0px;
+}
+.blog-title h2 {
+    font-size: 27px;
+}
+.blog-title p {
+    font-size: 13px;
+}
+.footer-title h1 {
+    font-size: 27px;
+}
+.footer-title h4 {
+    font-size: 19px;
+}
+
+    
+    
+    /* css end*/
+    }
+    /* css media queary start */
+
+
+/* *****
+* screen resulation : 279px to 379px 
+* most of the tab ipads mini i pads etc
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* css start  */
+    .header .top-menu {
+        padding: 40px 0px ;
+    }
+    .header .top-menu img{
+        margin: 30px 0px ;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link{
+        margin: 0px ;
+        font-size: 18px ;
+   }
+   .header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url(../images/nav.png) ;
+    background-position: center left;
+    background-repeat: no-repeat ; 
+   }
+
+  .header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .header .nav-link.active{
+    background: url(../images/nav.png) ;
+    background-position: left bottom;
+    background-repeat: no-repeat ; 
+   }
+   .banner{
+        padding: 50px 0px ;
+   }
+   .banner h1{
+        font-size: 32px ;
+   }
+   .banner p{
+        font-size: 18px  ;
+        margin: 30px 0px 0px 0px ;
+   }
+   .banner h4{
+        font-size: 24px ;
+   }
+   .banner .button-actions .btn-primary {
+    padding: 10px 35px;
+    font-size: 18px;
+
+  }
+  .button-actions{
+    margin-top: 40px ;
+  }
+  .button-actions .btn-info {
+    padding:15px 30px;
+  }
+ .about {
+    padding: 50px 0px;
+ }
+ .about .title {
+    margin: 0px 0px 50px 0px;
+}
+.about .title h1{
+    font-size: 32px ;
+}
+
+.about .title p{
+    font-size: 18px ;
+}
+.about h2 {
+    font-size: 32px;
+    margin: 0px 0px 30px 0px;
+}
+.about p {
+    font-size: 18px;
+    
+}
+
+.button-actions{
+    margin-top: 50px ;
+}
+.about .button-actions .btn-info {
+    padding:10px 30px;
+}
+
+.about .button-actions .btn-primary {
+    padding: 10px 20px;
+    font-size: 14px;
+
+  }
+  .about img {
+    width: 100%;
+    margin: 20px 0px 0px 10px;
+}
+.about-short img {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.about-short h2 {
+    font-size: 24px;
+    margin: 20px 0px 10px 0px;
+}  
+.about-short p{
+    font-size: 12px;
+}
+.about-short {
+    width: 100%;
+    padding: 0px 0px 30px;
+}
+.about-short .button-actions .btn-primary {
+    padding: 10px 35px;
+    font-size: 18px;
+
+}
+.service .title h1{
+    font-size: 32px ;
+}
+.service .title p{
+    font-size: 18px ;
+    margin: 0px 0px 50px 0px;
+}
+.problem h2 {
+    font-size: 24px;
+}
+
+.problem h2 span {
+    font-size: 32px;
+    margin: 50px;
+}
+.problem p {
+    font-size: 18px;
+    margin: 0px 0px 50px 0px;
+}
+.problem .btn-primary {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+.service {
+    padding: 0px 0px 30px;
+}
+.service img {
+    width: 100%;
+    margin: 50px -20px 50px 0px;
+}
+.discount {
+    padding: 50px 0px;
+}
+.discount h1{
+    font-size: 32px ;
+}
+.discount h2 {
+    font-size: 22px;
+}
+.discount h4{
+    font-size: 20px ;
+}
+.discount p{
+    font-size: 18px ;
+}
+.discount .btn-primary {
+    padding: 10px 35px;
+    font-size: 18;
+}
+.priching {
+    padding: 50px 0px 70px;
+}
+.priching .title {
+    margin: 0px 0px 0px 0px;
+}
+.priching .title h1{
+    font-size: 32px ;
+}
+
+.priching .title p{
+    font-size: 18px ;
+}
+.price-card .price-head {
+    padding: 30px 0px;
+}
+.price-card .price-head h1 {
+    font-size: 32px;
+}
+.price-card .price-content {
+    padding: 40px 0px 50px 0px;
+   
+}
+.price-card .price-content h5 {
+    font-size: 18px;
+}
+.price-card .price-content .btn-primary {
+    padding: 30px 40px;
+    font-size: 18px;
+    margin: 12px 0px 0px 0px;
+}
+.sale {
+    padding: 50px 0px;
+}
+.sale h1{
+    font-size: 32px ;
+}
+.sale h2 {
+    font-size: 22px;
+}
+.sala h4{
+    font-size: 20px ;
+}
+.sale p{
+    font-size: 18px ;
+}
+.sale .btn-primary {
+    padding:10px 35px;
+    font-size: 18;
+}
+.blog {
+    padding: 50px 0px 70px 0px;
+}
+.blog .title h1{
+    font-size: 32px ;
+}
+.blog .title p {
+    font-size: 18px;
+    margin: 0px 0px 50px 0px;
+}
+.blog-title {
+    width: 100%;
+    margin: 50px 0px;
+}
+.blog-title h2 {
+    font-size: 40px;
+}
+.blog-title p {
+    font-size: 18px;
+}
+.footer-title h1 {
+    font-size: 32px;
+}
+.footer-title h4 {
+    font-size: 20px;
+}
+
+    
+    
+    /* css end*/
+    }
+    
